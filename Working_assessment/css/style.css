@@ -1,0 +1,13 @@
+
+/*file imports*/
+@import url("sections/header.css");
+
+
+
+:root{
+    --primary-color:#000000;
+    --secondary-color:#CBDEEC;
+    --backdrop-color:#F8F8F8;
+    --underline-color:#060606;
+
+}
