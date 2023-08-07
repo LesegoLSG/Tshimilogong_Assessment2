@@ -54,6 +54,14 @@
     background-color: #FFF;
 }
 
+.content-inside h1{
+   color:var(--primary-color);
+   font-family:Inter;
+   font-size:32px;
+   font-weight:300;
+   line-height:normal; 
+}
+
 .content-inside p{
    font-family: Inter;
    font-size:16px;

@@ -50,8 +50,9 @@ header button{
 }
 
 header button:hover{
+    background-color: var(--secondary-color);
+    border:none;
     cursor:pointer;
-    border: 2px solid var(--shadow-color);
 }
 
 .nav__links{

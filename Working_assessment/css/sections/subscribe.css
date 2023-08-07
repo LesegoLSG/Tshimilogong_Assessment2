@@ -35,7 +35,20 @@
     align-items:center;
     border:1px solid var(--primary-color);
     margin-top:32px;
+    color:var(--primary-color);
+    text-align:center;
+    font-style:normal;
+    font-size:16px;
+    font-weight:300;
+    line-height: normal;
 }
+
+.subscribe-container button:hover{
+    background-color: var(--secondary-color);
+    border:none;
+    cursor:pointer;
+}
+
 
 .subscribe-input{
     padding:24px 32px 24px 32px;
