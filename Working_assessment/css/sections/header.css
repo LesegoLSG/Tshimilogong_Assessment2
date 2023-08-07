@@ -2,7 +2,7 @@ body{
     /*width of 1512 creates a scroller, to be added*/
     
     height:3200px;
-    background-color: red;
+    background-color: var(--backdrop-color);
 }
 /*The first section*/
 .container{
@@ -78,7 +78,7 @@ header button:hover{
 
 /**Dronotics and era text with rectangle**/
 .container-frame12{
-    background-color: aqua;
+   /** background-color: aqua;**/
     width:660px;
     position:absolute;
     top:50%;

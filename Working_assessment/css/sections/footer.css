@@ -1,5 +1,5 @@
 .footer-container{
-   background-color: blue;
+   background-color:#FFF;
     display:flex;
     justify-content: space-between;
     
@@ -64,10 +64,6 @@
 
 .fa-pinterest-p{
     font-size:40px;
-}
-
-.footer-links-icons {
-    
 }
 
 .footer-links-icons  li{
