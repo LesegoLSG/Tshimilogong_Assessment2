@@ -1,0 +1,114 @@
+.container-card-footer{
+    background-color: gold;
+    
+    width:auto;
+    height:2270px;
+    
+}
+
+.main-card-section{
+    background-color: rgb(59, 59, 199);
+    width:1272px;
+    height:auto;
+    text-align:center;
+    margin:0 auto;
+   
+}
+
+.main-card-section .latest-article-container{
+    margin-bottom:144px;
+}
+
+.main-card-section .latest-article-container h1{
+    color:var(--primary-color);
+    font-family:Inter;
+    font-size:32px;
+    font-weight:300;
+    line-height: normal;
+}
+
+.main-card-section .latest-article-container h1:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--hover-color);
+    cursor:pointer;
+}
+
+.main-card-section .latest-article-container span{
+    display:inline-block;
+    width:69px;
+    height:2px;
+    background-color: var(--primary-color);
+    text-align:center;
+}
+
+.main-card-section .row-card{
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:48px;
+    
+}
+
+
+.main-card-section .card{
+    width:282px;
+    height:376px;
+    background-color:chartreuse;
+    text-align:center;
+    float:left;
+    box-shadow:0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.main-card-section .card:hover{
+    border:2px solid #be03fc;
+}
+
+
+
+.main-card-section .card .image img{
+    width:100%;
+}
+
+.main-card-section .card .image img:hover{
+    border:2px solid #0377fc;
+}
+
+.main-card-section .card .line_description_container{
+    width:213px;
+    height:74px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgreen;
+    
+    display:inline-block;
+    text-align:center;
+    margin-top:48px;
+}
+
+
+.main-card-section .card .line_description_container span{
+    display:inline-block;
+    width:64px;
+    height:4px;
+    background-color: var(--primary-color);
+    text-align:center;
+
+}
+
+
+
+
+.main-card-section .card .line_description_container p{
+    color: var(--primary-color);
+    text-align:center;
+    font-size: 16px;
+    
+}
+
+.main-card-section .card .line_description_container p:hover{
+    text-decoration: underline;
+    /**text-decoration-style: 5px solid;**/
+    text-decoration-color: var(--hover-color);
+}
+

@@ -1,0 +1,60 @@
+.subscribe-container{
+    display:flex;
+    flex-direction: column;
+    background-color: brown;
+    width:586px;
+    height:240px;
+    
+    align-items: center;
+    position: relative;
+    top:179px;
+    left:463px;
+}
+
+.subscribe-container h1{
+    margin:0px;
+    font-family:Inter;
+    font-size:32px;
+    font-style:normal;
+    font-weight:300;
+    line-height: normal;
+}
+
+.subscribe-container p{
+    margin:12px 0px 0px 0px;
+    font-family: Inter;
+    font-size:16px;
+    font-weight:400px;
+    line-height: normal;
+}
+
+.subscribe-container button{
+    display:flex;
+    padding:10px 40px;
+    justify-content: center;
+    align-items:center;
+    border:1px solid var(--primary-color);
+    margin-top:32px;
+}
+
+.subscribe-input{
+    padding:24px 32px 24px 32px;
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: navy;
+}
+
+input{
+    width:586px;
+    display:flex;
+    padding:24px 32px;
+    gap:10px;
+    background-color: #FFF;
+    border:none;
+}
+
+
+

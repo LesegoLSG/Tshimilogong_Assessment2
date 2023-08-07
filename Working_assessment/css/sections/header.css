@@ -1,6 +1,7 @@
 body{
     /*width of 1512 creates a scroller, to be added*/
-    height:3439px;
+    
+    height:3200px;
     background-color: red;
 }
 /*The first section*/
@@ -28,6 +29,12 @@ header h4{
     line-height:normal;
 }
 
+header h4:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    text-decoration-color: var(--hover-color);
+}
+
 header span{
     color:var(--secondary-color);
 }
@@ -40,6 +47,11 @@ header button{
     font-weight:300;
     line-height:normal;
     background:transparent;
+}
+
+header button:hover{
+    cursor:pointer;
+    border: 2px solid var(--shadow-color);
 }
 
 .nav__links{
@@ -57,6 +69,11 @@ header button{
     font-style: normal;
     color:var(--primary-color);
     font-family: Inter;
+}
+
+.nav__links li a:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--hover-color);
 }
 
 /**Dronotics and era text with rectangle**/

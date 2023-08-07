@@ -1,6 +1,10 @@
 
 /*file imports*/
 @import url("sections/header.css");
+@import url("sections/card.css");
+@import url("sections/about-us.css");
+@import url("sections/subscribe.css");
+@import url(sections/footer.css);
 
 
 
@@ -9,5 +13,7 @@
     --secondary-color:#CBDEEC;
     --backdrop-color:#F8F8F8;
     --underline-color:#060606;
+    --hover-color:#0377fc;
+    --shadow-color:#9747FF;
 
 }
