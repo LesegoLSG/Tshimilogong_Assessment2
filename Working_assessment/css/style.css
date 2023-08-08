@@ -7,7 +7,7 @@
 @import url(sections/footer.css);
 
 
-
+/**Colors for reusability**/
 :root{
     --primary-color:#000000;
     --secondary-color:#CBDEEC;

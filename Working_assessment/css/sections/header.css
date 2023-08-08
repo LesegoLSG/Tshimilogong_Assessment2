@@ -1,10 +1,10 @@
+/**Header section/stylesheet**/
+
 body{
-    /*width of 1512 creates a scroller, to be added*/
-    
     height:3200px;
     background-color: var(--backdrop-color);
 }
-/*The first section*/
+
 .container{
     background:url(../../assets/hero.jpg),lightgray 50% / cover no-repeat;
     background-size:cover;
@@ -55,6 +55,7 @@ header button:hover{
     cursor:pointer;
 }
 
+/**Header links with button**/
 .nav__links{
     list-style:none;
 }
@@ -122,7 +123,7 @@ header button:hover{
 }
 /*End of the header*/
 
-/*Start of the card section*/
+
 
 
 
